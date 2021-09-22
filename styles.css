@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.gallery a {
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.gallery a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#first{
+    font-size: 10rem;
+}
+.ads{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}

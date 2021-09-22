@@ -2,9 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>npmweb</title>
+    <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/lightgallery/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="node_modules/lightgallery/css/lg-zoom.css">
 </head>
 <body>
 
+
+<div class="gallery" id="lightgallery">
+    <a href="vatican.jpeg">
+        <img src="vatican.jpeg" alt="">
+    </a>
+
+    <a href="les.jpeg">
+        <img src="les.jpeg" alt="">
+    </a>
+
+    <a href="waffle.jpg">
+        <img src="waffle.jpg" alt="">
+    </a>
+</div>
+<div class="ads">
+    <i id="first" class="fab fa-accessible-icon"></i>
+</div>
+
+
+
+<script src="node_modules/lightgallery/lightgallery.min.js"></script>
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'), {
+        selector: 'a'
+    });
+</script>
 </body>
 </html>
